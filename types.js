@@ -9,7 +9,7 @@ var myVar;
 var strArr;
 var numArr;
 var boolArr;
-var strNumTuple;
+var strNumTuple; // Set different types in this array
 myString = 'Hello'.slice(0, 3);
 myNum = 3 * 3;
 myBool = false;
@@ -18,4 +18,7 @@ strArr = ['Hello', 'World'];
 numArr = [1, 2, 3, 4, 5,];
 boolArr = [true, false, false, true];
 strNumTuple = ['Hi', 7, false];
-console.log(strNumTuple);
+var myVoid = undefined;
+var myNull = null;
+var myUndefined = null;
+console.log(myNull);
