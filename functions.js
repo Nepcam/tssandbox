@@ -11,4 +11,12 @@ var mySum = function (num1, num2) {
     }
     return num1 + num2;
 };
-console.log(mySum('3', '2'));
+// console.log(mySum('3', '2'));
+function getName(firstName, lastName) {
+    if (lastName == undefined) {
+        return firstName;
+    }
+    return firstName + ' ' + lastName;
+}
+;
+console.log(getName('Cam'));
