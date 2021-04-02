@@ -20,3 +20,6 @@ function getName(firstName, lastName) {
 }
 ;
 console.log(getName('Cam'));
+function myVoid() {
+    return;
+}
